@@ -5,6 +5,13 @@ import (
 	"encoding/binary"
 )
 
+const (
+	c1 uint32 = 0x239b961b
+	c2 uint32 = 0xab0e9789
+	c3 uint32 = 0x38b34ae5
+	c4 uint32 = 0xa1e38b93
+)
+
 func ROTL32(x uint32, r uint8) uint32 {
 	return (x << r) | (x >> (32 - r))
 }
