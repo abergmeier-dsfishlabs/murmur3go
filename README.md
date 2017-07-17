@@ -1,4 +1,4 @@
-C port of Murmur3 hash
+Go port of Murmur3 hash
 ==============
 
 This is a port of the [Murmur3](http://code.google.com/p/smhasher/wiki/MurmurHash3) hash function. Murmur3 is a non-cryptographic hash, designed to be fast and excellent-quality for making things like hash tables or bloom filters.
